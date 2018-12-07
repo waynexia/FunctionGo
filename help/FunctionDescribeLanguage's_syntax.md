@@ -1,17 +1,17 @@
 # Formula Describe Language #
 
-only contains half angle symbol
-> A-Z, a-z, ' " ^ () + - * /
+only contains half-width character
+> A-Z, a-z, ' " () + - * /
 
-Variables are surround by a pair of apostrophes
+Variables are surrounded by a pair of apostrophes
 > Variable X should be 'X'
 
-Transcendental Functions can be represent by their name, and follows a pair of brackets. Here are supports funcions
+Transcendental Functions can be represented by their name, and follows a pair of brackets. Here are supported funcions
 > sin('x') &nbsp;cos('x') &nbsp;tan('x') &nbsp;arcsin('x') &nbsp; arccos('x') &nbsp; arctan('x')
 
 >ln('x') &nbsp;lg('x')
 
-These functions can be combinas to a composite function
+These functions can be combines to a composite function
 >sin(ln('x'))
 
 Besides, normal Logarithmic Function should be represented in this way
@@ -20,12 +20,12 @@ Besides, normal Logarithmic Function should be represented in this way
 And power function such as x^5 should be
 >power('x',5)
 
-Constances directly be number
+Literal number
 >5
 
 >4+(9/3)
 
-Others supported operator listed as follow
+Other supported operators are listed as follow
 > *+*&nbsp;-&nbsp;*&nbsp;/&nbsp;()&nbsp;
 
     * see order in https://en.wikipedia.org/wiki/Order_of_operations *
